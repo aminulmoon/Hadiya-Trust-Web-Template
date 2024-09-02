@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+.banner{
+    background-image: url(Images/Flood.jpeg);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    text-align: center;
+    background-size: cover;
+}
+.banner_content{
+    padding-top: 150px;
+}
+
+.banner_button{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.banner_button:hover{
+    background-color: green;
+    color: white;
+    
+}
+
+.donation{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.donate_amount {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.amount {
+    background-color: burlywood;
+    padding: 15px;
+    margin-right: 10px;
+    border: 2px rgb(71, 4, 4) solid;
+    cursor: pointer;
+}
+
+.active {
+    background-color: rgb(203, 167, 59);
+    color: white;
+}
+
+#input-amount {
+    text-align: center;
+    width: 15%;
+    height: 25px;
+    border: 2px black solid;
+}
+
+.amount-button {
+    color: white;
+    background-color: green;
+    padding: 15px;
+    border: 2px;
+    border-radius: 5px;
+}
+
+.donation-plan {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 20px;
+
+}
+
+.flex-containter {
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.plan {
+    background-color: antiquewhite;
+    border: 2px black solid;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 30px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.gallery {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.image-gallery {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.gallery-row img {
+    width: 23%;
+    height: 250px;
+    margin: 5px;
+    padding: 5px;
+ }
